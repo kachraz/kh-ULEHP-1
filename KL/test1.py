@@ -5,7 +5,7 @@
 
 
 def main() -> None:
-    print("Hello from test1.py!")
+    print("LickPussyNow")
 
 
 if __name__ == "__main__":
