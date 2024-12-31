@@ -6,8 +6,8 @@ console = Console()
 
 
 def label(name):
-    panel = Panel("""
-Learning Conditionals Here
-""",title="Main",subtitle="This One", style="Italic", border_style="magenta")
+    panel = Panel(f"""
+{name}
+""",title="macchangers",subtitle="v1", style="Italic", border_style="magenta")
 # Print the Panel
-console.print(panel)
+    console.print(panel)
