@@ -17,12 +17,9 @@ import subprocess
 
 
 def main() -> None:
-    rprint("""
-[blue]===
+    rprint("""[blue]===
 mac_changer.py - Random macchanger
-===
-[/blue]
-""")
+===[/blue]""")
     print_hi("world")
 
 
