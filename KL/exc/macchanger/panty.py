@@ -1,3 +1,7 @@
+# main python which executes functtions 
+
+from src.m1 
+
 def main():
     print("Hello from macchanger!")
 
