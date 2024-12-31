@@ -17,7 +17,7 @@ import subprocess
 
 
 def main() -> None:
-    print("[blue]mac_changer.py - Random macchanger[/blue]")
+    rprint("[blue]mac_changer.py - Random macchanger[/blue]")
     print_hi("world")
 
 
