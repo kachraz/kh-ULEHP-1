@@ -20,3 +20,7 @@ uv add --script example.py 'requests<3' 'rich'
 ```
 
 ## Running A Script 
+
+```sh 
+uv run --script example.py
+```
