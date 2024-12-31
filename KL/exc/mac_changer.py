@@ -12,13 +12,15 @@ mac_changer.py - A script to change the MAC address of a network interface for k
 """
 # ---
 
+from rich import print as rprint
+
 
 def main() -> None:
     print("Hello from mac_changer.py!")
 
 
 def print_hi(name):
-    print(f"Hi, {name}")
+    rprint(f"[green]Hi, {name}[/green]")
 
 
 # Excute the main function
