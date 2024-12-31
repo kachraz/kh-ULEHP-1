@@ -17,7 +17,7 @@ import subprocess
 
 
 def main() -> None:
-    print("Hello from mac_changer.py!")
+    print("[blue]mac_changer.py - Random macchanger[/blue]")
     print_hi("world")
 
 
