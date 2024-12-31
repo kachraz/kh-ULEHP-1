@@ -30,7 +30,7 @@ comm_2 = ["curl", "ipinfo.io"]
 def mac23():
     "Testing another command here"
     label("curl ipinfo.io command")
-    input1 = subprocess.run(comm_2)
+    input1 = subprocess.run(comm_2, capture_output=True, text=True)
     subprocess.run(["jq", input=input1])
 
 
