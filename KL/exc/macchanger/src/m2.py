@@ -24,6 +24,7 @@ def mac21():
     rprint(f"[green][INFO] Changing macaddress for - {interface}[/green]")
     subprocess.run(command_1)
 
+# Testing the curl ipinfo.io 
 
 comm_2 = ["curl", "ipinfo.io"]
 
