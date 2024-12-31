@@ -5,3 +5,4 @@ from src.utils import label
 
 def mac2():
     """Second version of the progra"""
+    label()
