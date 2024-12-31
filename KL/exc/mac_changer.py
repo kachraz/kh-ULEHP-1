@@ -18,11 +18,11 @@ import subprocess
 
 def main() -> None:
     rprint("""
-           [blue] ===
-           mac_changer.py - Random macchanger
-           ===
-           [/blue]
-           """)
+[blue] ===
+mac_changer.py - Random macchanger
+===
+[/blue]
+""")
     print_hi("world")
 
 
