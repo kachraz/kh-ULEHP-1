@@ -7,7 +7,7 @@ from src.utils import label
 interface = "eth0"
 
 # Command as a list 
-command_1 = [macchanger ]
+command_1 = ["macchanger", "-r", interface]
 
 def mac2():
     """Second version of the progra"""
@@ -19,4 +19,4 @@ def mac21():
     """Second version of the progra"""
     label("machanger version 2.1")
     rprint(f"[green][INFO] Changing macaddress for - {interface}[/green]")
-    subprocess.run(["macchanger", "-r", interface])
+    subprocess.run(command_1)
