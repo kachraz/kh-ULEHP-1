@@ -1,9 +1,9 @@
 # main python which executes functtions 
 
-from src.m1 
+from src.m1 import mac1
 
 def main():
-    print("Hello from macchanger!")
+    mac1()
 
 
 if __name__ == "__main__":

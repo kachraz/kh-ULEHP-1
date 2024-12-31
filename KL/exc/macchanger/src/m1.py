@@ -4,7 +4,7 @@ from rich import print as rprint
 from src.utils import label
 
 
-def subp1():
+def mac1():
     label("mac_changer")
     """Sunprocess function test"""
     subprocess.run(["ifconfig"])
