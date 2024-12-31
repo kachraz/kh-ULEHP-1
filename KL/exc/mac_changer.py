@@ -17,13 +17,13 @@ import subprocess
 
 
 def main() -> None:
+    subprocess.run(["clear"], shell=True)
     subp1()
 
 
 def subp1():
     label("mac_changer")
     """Sunprocess function test"""
-    subprocess.run(["clear"], shell=True)
     subprocess.call(["macchanger", "-r", "eth0"], shell=True)
 
 
