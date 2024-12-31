@@ -33,8 +33,6 @@ def subp1():
 
 # Excute the main function
 # main()
-
-
 def label(name):
     rprint(f"""[blue]===
 {name}
