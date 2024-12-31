@@ -18,6 +18,7 @@ import subprocess
 
 def main() -> None:
     label("mac_changer.py")
+    subp1()
 
 
 def subp1():
