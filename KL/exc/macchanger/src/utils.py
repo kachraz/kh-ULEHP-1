@@ -6,7 +6,7 @@ console = Console()
 
 
 def label(name):
-    panel = Panel(f"""
+    panel = Panel.fit(f"""
 {name}
 """,title="macchangers",subtitle="v1", style="Italic", border_style="magenta")
 # Print the Panel
