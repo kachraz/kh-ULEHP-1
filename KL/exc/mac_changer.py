@@ -22,6 +22,7 @@ def main() -> None:
 
 def subp1():
     """Sunprocess function test"""
+    subprocess.run(["clear"], shell=True)
     subprocess.call(["macchanger", "-r", "eth0"], shell=True)
 
 
