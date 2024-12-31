@@ -32,6 +32,6 @@ def mac23():
     label("curl ipinfo.io command")
     input1 = subprocess.run(comm_2, capture_output=True, text=True)
     input_bytes = input1.stdout.encode('utf-8')
-    subprocess.run(["jq", "."], input=input1_bytes)
+    subprocess.run(["jq", "."], input=input_bytes)
 
 
