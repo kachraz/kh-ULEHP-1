@@ -2,6 +2,9 @@
 import subprocess 
 from rich import print as rprint
 from src.utils import label
+rom rich.console import Console
+console = Console()
+
 
 # Variables definition
 interface = "eth0"
