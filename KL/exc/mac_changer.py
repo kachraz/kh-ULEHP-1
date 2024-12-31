@@ -20,7 +20,7 @@ def print_hi(name):
 
 
 # Excute the main function
-main()
+# main()
 
 if __name__ == "__main__":
     main()
