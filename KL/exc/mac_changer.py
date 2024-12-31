@@ -17,6 +17,7 @@ import subprocess
 
 
 def main() -> None:
+    # Label
     rprint("""[blue]===
 mac_changer.py - Random macchanger
 ===[/blue]""")
@@ -29,6 +30,13 @@ def subp1():
 
 # Excute the main function
 # main()
+
+
+def label(name):
+    rprint("""f[blue]===
+{name}
+===[/blue]""")
+
 
 if __name__ == "__main__":
     main()
