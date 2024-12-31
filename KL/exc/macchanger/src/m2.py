@@ -9,5 +9,5 @@ interface = "eth0"
 def mac2():
     """Second version of the progra"""
     label("machanger version 2")
-    rprint(f"[magenta][INFO] Changing macaddress for - {interface}[/magenta]")
+    rprint(f"[green][INFO] Changing macaddress for - {interface}[/green]")
     subprocess.run(["macchanger", "-r", interface])
