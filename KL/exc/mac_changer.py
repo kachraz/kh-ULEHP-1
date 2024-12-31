@@ -28,6 +28,7 @@ def subp1():
     rprint("[cyan] Executing the macchanger three times[/cyan]")
     for i in range(3):
         subprocess.run(["macchanger", "-r", "eth0"])
+        rprint("[cyan] --- [/cyan]")
 
 
 # Excute the main function
