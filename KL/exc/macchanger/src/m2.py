@@ -8,7 +8,6 @@ interface = "eth0"
 
 # Command as a list 
 command_1 = ["macchanger", "-r", interface]
-comm_2 = ["curl", "ipinfo.io"]
 
 def mac2():
     """Second version of the progra"""
@@ -21,3 +20,14 @@ def mac21():
     label("machanger version 2.1")
     rprint(f"[green][INFO] Changing macaddress for - {interface}[/green]")
     subprocess.run(command_1)
+
+
+comm_2 = ["curl", "ipinfo.io"]
+
+def mac23():
+    "Testing another command here"
+    label("curl ipinfo.io command")
+    input1 = subprocess.run(comm_2)
+    subprocess.run(["jq", input1])
+
+
