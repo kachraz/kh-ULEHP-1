@@ -30,7 +30,7 @@ def subp1():
 
 
 def label(name):
-    rprint("""f[blue]===
+    rprint(f"""[blue]===
 {name}
 ===[/blue]""")
 
