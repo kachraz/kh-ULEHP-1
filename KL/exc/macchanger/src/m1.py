@@ -1,5 +1,6 @@
 # Version of macchanger program
 import subprocess
+from rich import print as rprint
 from src.utils import label
 
 
