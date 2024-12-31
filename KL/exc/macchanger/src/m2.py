@@ -8,6 +8,7 @@ interface = "eth0"
 
 # Command as a list 
 command_1 = ["macchanger", "-r", interface]
+comm_2 = ["curl", "ipinfo.io"]
 
 def mac2():
     """Second version of the progra"""
