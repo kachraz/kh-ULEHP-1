@@ -6,6 +6,8 @@ console = Console()
 
 
 def label(name):
-    rprint(f"""[blue]===
-{name}
-===[/blue]""")
+    panel = Panel("""
+Learning Conditionals Here
+""",title="Main",subtitle="This One", style="Italic", border_style="magenta")
+# Print the Panel
+console.print(panel)
