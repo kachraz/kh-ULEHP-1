@@ -28,6 +28,6 @@ def mac23():
     "Testing another command here"
     label("curl ipinfo.io command")
     input1 = subprocess.run(comm_2)
-    subprocess.run(["jq", input1])
+    subprocess.run(["jq", input=input1])
 
 
