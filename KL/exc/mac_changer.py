@@ -18,7 +18,7 @@ import subprocess
 
 def main() -> None:
     rprint("""
-[blue] ===
+[blue]===
 mac_changer.py - Random macchanger
 ===
 [/blue]
