@@ -1,4 +1,8 @@
 # Version of macchanger program
+import subprocess
+from rich import print as rprint
+
+
 def subp1():
     label("mac_changer")
     """Sunprocess function test"""
