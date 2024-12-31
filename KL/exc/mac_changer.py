@@ -17,10 +17,7 @@ import subprocess
 
 
 def main() -> None:
-    # Label
-    rprint("""[blue]===
-mac_changer.py - Random macchanger
-===[/blue]""")
+    label("mac_changer.py")
 
 
 def subp1():
