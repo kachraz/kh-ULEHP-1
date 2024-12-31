@@ -25,7 +25,7 @@ def subp1():
     label("mac_changer")
     """Sunprocess function test"""
     subprocess.call(["ifconfig"])
-    subprocess.call(["macchanger -r eth0"])
+    subprocess.call(["macchanger -r eth0"], shell=True)
 
 
 # Excute the main function
