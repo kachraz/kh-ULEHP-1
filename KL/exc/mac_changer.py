@@ -17,6 +17,7 @@ from rich import print as rprint
 
 def main() -> None:
     print("Hello from mac_changer.py!")
+    print_hi("world")
 
 
 def print_hi(name):
