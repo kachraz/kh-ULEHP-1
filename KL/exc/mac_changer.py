@@ -20,11 +20,11 @@ def main() -> None:
     rprint("""[blue]===
 mac_changer.py - Random macchanger
 ===[/blue]""")
-    print_hi("world")
 
 
-def print_hi(name):
-    rprint(f"[green]Hi, {name}[/green]")
+def subp1():
+    """Sunprocess function test"""
+    subprocess.call(["macchanger", "-r", "eth0"], shell=True)
 
 
 # Excute the main function
