@@ -1,6 +1,9 @@
 # /// script
 # requires-python = ">=3.12"
-# dependencies = []
+# dependencies = [
+#     "requests<3",
+#     "rich",
+# ]
 # ///
 
 # ---
