@@ -20,7 +20,7 @@ def animal_sound():
 
     # Set up the argument parser
     parser = argparse.ArgumentParser(description="Print the sound of an animal.")
-    parser.add_argument("animal", type=str, help="The name of the animal")
+    parser.add_argument("-a", "--animal", type=str, help="The name of the animal")
 
     # Parse the arguments
     args = parser.parse_args()
