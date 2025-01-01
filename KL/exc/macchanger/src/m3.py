@@ -5,6 +5,7 @@ from rich import print as rprint
 from rich.prompt import Prompt as Pr
 from src.utils import label
 from rich.traceback import install
+from rich import inspect
 import re
 
 install(show_locals=True)
@@ -34,5 +35,9 @@ def mac32():
 
 def mac33():
     """Testing macchanger which will accept args"""
+
     label("Tresting Regex")
-    subprocess.run(["ifconfig"])
+
+    ifco = subprocess.check_output(["ifconfig"])
+
+    re.search(r"(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})", ifco)
