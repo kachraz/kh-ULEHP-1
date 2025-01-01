@@ -39,5 +39,8 @@ def mac33():
     label("Tresting Regex")
 
     ifco = subprocess.check_output(["ifconfig"])
+    ifco_decode = ifco.decode("utf-8")  # Decoding the bytes
 
-    re.search(r"(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})", ifco)
+    re_pattern = r"\w\w:\w\w:\w\w:\w\w:\w\w:\w\w"
+    mac_address_search_result = re.search(re_pattern, ifco_decode)
+    rprint(mac_address_search_result.group(0))
