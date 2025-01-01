@@ -20,8 +20,12 @@ def mac31():
 
 def mac32():
     """Testing macchanger which will accept args"""
+
     label("machanger version 3.2")
     subprocess.run(["ifconfig"])
+
     interface = Pr.ask("What interface do you want to rape")
+
     rprint(f"[green][INFO] Changing macaddress for - {interface}[/green]")
+
     subprocess.run(["sudo", "macchanger", "-r", interface])

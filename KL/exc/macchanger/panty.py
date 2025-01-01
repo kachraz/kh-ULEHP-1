@@ -1,13 +1,13 @@
 # main python which executes functtions
 
-from src.m3 import *
+from src.testa import *
 from rich.traceback import install
 
 install(show_locals=True)
 
 
 def main():
-    mac32()
+    animal_sound()
 
 
 if __name__ == "__main__":
