@@ -5,6 +5,7 @@ from rich import print as rprint
 from rich.prompt import Prompt as Pr
 from src.utils import label
 from rich.traceback import install
+import re
 
 install(show_locals=True)
 
@@ -29,3 +30,9 @@ def mac32():
     rprint(f"[green][INFO] Changing macaddress for - {interface}[/green]")
 
     subprocess.run(["sudo", "macchanger", "-r", interface])
+
+
+def mac33():
+    """Testing macchanger which will accept args"""
+    label("Tresting Regex")
+    subprocess.run(["ifconfig"])
