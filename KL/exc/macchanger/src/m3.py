@@ -36,11 +36,12 @@ def mac32():
 def mac33():
     """Testing macchanger which will accept args"""
 
-    label("Tresting Regex")
+    label("Tresting Regex & Getting the mac address")
 
     ifco = subprocess.check_output(["ifconfig"])
     ifco_decode = ifco.decode("utf-8")  # Decoding the bytes
 
     re_pattern = r"\w\w:\w\w:\w\w:\w\w:\w\w:\w\w"
     mac_address_search_result = re.search(re_pattern, ifco_decode)
+    rprint(ifco_decode)
     rprint(mac_address_search_result.group(0))
