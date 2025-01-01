@@ -7,7 +7,7 @@ install(show_locals=True)
 
 
 def main():
-    mac31()
+    mac32()
 
 
 if __name__ == "__main__":
