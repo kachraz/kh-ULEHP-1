@@ -4,27 +4,30 @@ import argparse
 
 
 def animal_sound():
-    def get_animal_sound(animal):
-        sounds = {
-            "dog": "bark",
-            "cat": "meow",
-            "cow": "moo",
-            "bird": "tweet",
-            "lion": "roar",
-            "sheep": "baa",
-            "horse": "neigh",
-            "duck": "quack",
-            "pig": "oink",
-            "chicken": "cluck",
-        }
-        return sounds.get(animal.lower(), "unknown sound")
+    # Define the sounds for different animals
+    sounds = {
+        "dog": "bark",
+        "cat": "meow",
+        "cow": "moo",
+        "bird": "tweet",
+        "lion": "roar",
+        "sheep": "baa",
+        "horse": "neigh",
+        "duck": "quack",
+        "pig": "oink",
+        "chicken": "cluck",
+    }
 
-    def print_animal_sound():
-        parser = argparse.ArgumentParser(description="Print the sound of an animal.")
-        parser.add_argument("animal", type=str, help="The name of the animal")
+    # Set up the argument parser
+    parser = argparse.ArgumentParser(description="Print the sound of an animal.")
+    parser.add_argument("animal", type=str, help="The name of the animal")
 
-        args = parser.parse_args()
-        animal = args.animal
-        sound = get_animal_sound(animal)
+    # Parse the arguments
+    args = parser.parse_args()
+    animal = args.animal
 
-        print(f"The {animal} says {sound}.")
+    # Get the sound for the given animal
+    sound = sounds.get(animal.lower(), "unknown sound")
+
+    # Print the result
+    print(f"The {animal} says {sound}.")
