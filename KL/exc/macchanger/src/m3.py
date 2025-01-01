@@ -11,4 +11,4 @@ def mac31():
     subprocess.run(["ifconfig"])
     interface = "eth0"
     rprint(f"[green][INFO] Changing macaddress for - {interface}[/green]")
-    subprocess.run(["macchanger", "-r", interface])
+    subprocess.run(["sudo", "macchanger", "-r", interface])

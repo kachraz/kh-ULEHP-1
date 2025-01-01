@@ -1,12 +1,13 @@
-# main python which executes functtions 
+# main python which executes functtions
 
-from src.m1 import mac1
-from src.m2 import mac2, mac21, mac23
+from src.m3 import *
 from rich.traceback import install
+
 install(show_locals=True)
 
+
 def main():
-    mac23()
+    mac31()
 
 
 if __name__ == "__main__":
