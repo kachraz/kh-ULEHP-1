@@ -8,7 +8,7 @@ install(show_locals=True)
 
 
 def main():
-    print("Hello from netsca!")
+    label("Panty")
 
 
 if __name__ == "__main__":
