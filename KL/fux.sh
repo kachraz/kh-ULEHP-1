@@ -13,9 +13,10 @@ export NC='\033[0m' # No Color
 
 # Commands
 b1() {
-    echo -e "${CYAN} ======================"
+    echo -e "${CYAN} ============================================"
     echo -e "${RED} Rape Commands Test${NC}"
-    echo -e " ======================${NC}"
+    echo -e "${RED} Various commands to test the fux.sh script${NC}"
+    echo -e "${CYAN} ============================================${NC}"
 }
 
 # Execution Sequence
