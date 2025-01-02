@@ -20,8 +20,8 @@ b1() {
 }
 
 c1() {
-    TAR="10.10.245.122"
-    COM1="netdiscover -r ${TAR}/24"
+    TAR="10.10.245.1"
+    COM1="sudo netdiscover -r ${TAR}/24"
     echo -e "${GREEN} ${COM1} ${NC}"
     ${COM1}
 }
