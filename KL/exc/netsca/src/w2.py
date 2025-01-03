@@ -10,4 +10,5 @@ console = Console()
 
 # --- Variables Section ---
 def w2scan1(ip):
-    arp_request = sca.ARP(pdst=ip)
+    arp_request = sca.ARP()
+    rprint(arp_request.summary())

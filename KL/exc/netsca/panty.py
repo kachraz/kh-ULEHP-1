@@ -2,6 +2,7 @@
 
 from src.utils import label
 from src.w1 import scan1
+from src.w2 import w2scan1
 
 from rich.traceback import install
 
@@ -13,7 +14,7 @@ IP1 = "10.129.147.243"
 
 # Function definitions
 def main():
-    scan1(IP1)
+    w2scan1(IP1)
 
 
 if __name__ == "__main__":
