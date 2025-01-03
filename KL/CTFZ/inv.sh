@@ -12,13 +12,22 @@ export CYAN='\033[0;36m'
 export WHITE='\033[0;37m'
 export NC='\033[0m' # No Color
 
+# Machine
+MACHINE_IP="10.129.49.44"
+
 # Commands
 b1() {
-    echo -e "${RED} hey"
+    echo -e "${CYAN} ======================"
+    echo -e "Investigative worh for htb - ${MACHINE_IP}"
+    echo -e " ======================${NC}"
 }
 
 c1() {
-    echo -e "${GREEN} hi"
+    COM1="nmap -sV -O ${MACHINE_IP}"
+    COM2="nmap ${MACHINE_IP} -PR"
+    echo -e "${PURPLE}[=]${COM2} ${NC} "
+    ${COM2}
+    echo -e "${GREEN}[+]${COM2} "
 }
 
 # Execution
