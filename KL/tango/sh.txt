@@ -1,3 +1,7 @@
+
+---
+shadidotcom-nmap simple can output 
+
 puzy@b69f789f7c60 / [1]> nmap -sV -O shaadi.com
 Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-01-03 13:19 UTC
 Nmap scan report for shaadi.com (104.18.25.17)
