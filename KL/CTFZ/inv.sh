@@ -23,13 +23,19 @@ b1() {
 }
 
 c1() {
-    COM1="nmap -sV -O ${MACHINE_IP}"
     COM2="nmap ${MACHINE_IP} -PR"
     echo -e "${PURPLE}[=]${COM2} ${NC} "
     ${COM2}
     echo -e "${GREEN}[+]${COM2} "
 }
 
+c2() {
+    COM1="nmap -sV -O ${MACHINE_IP}"
+    echo -e "${PURPLE}[=]${COM1} ${NC} "
+    ${COM1}
+    echo -e "${GREEN}[+]${COM1} "
+}
+
 # Execution
 b1
-c1
+c2
