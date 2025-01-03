@@ -25,6 +25,7 @@ c1() {
     CO1="nmap -sV -O shaadi.com"
     echo -e "${GREEN}[+] ${CO1} ${NC}"
     ${CO1}
+    echo "~~~DONE~~~"
 }
 
 # Execution
