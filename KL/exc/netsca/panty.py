@@ -8,7 +8,7 @@ from rich.traceback import install
 install(show_locals=True)
 
 # Variables that will be used int the functions
-IP1 = "10.129.49.1/24"
+IP1 = "10.129.147.243"
 
 
 # Function definitions

@@ -13,7 +13,7 @@ export WHITE='\033[0;37m'
 export NC='\033[0m' # No Color
 
 # Machine
-MACHINE_IP="10.129.49.44"
+MACHINE_IP="10.129.147.243"
 
 # Commands
 b1() {
@@ -38,4 +38,5 @@ c2() {
 
 # Execution
 b1
+c1
 c2
